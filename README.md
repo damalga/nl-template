@@ -1,1 +1,1 @@
-# nl-template
+# Newsletter Temaplate
