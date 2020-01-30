@@ -1,1 +1,1 @@
-# Newsletter Temaplate
+# Newsletter Template
