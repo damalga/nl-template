@@ -14,6 +14,9 @@
 			margin:0;
 			padding: 0;
 		}
+		sup{
+			line-height: 0;
+		}
 
 		/*Media Queries*/
 		@media screen and (max-width: 600px) {
@@ -22,6 +25,7 @@
 				max-width: 100% !important;
 			}
 			.height-auto{
+				/*Se usa para */
 				height: auto !important;
 			}
 			/*Convert columns to rows*/
@@ -315,21 +319,26 @@
 	<td>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0">
 			<tr>
-				<td style="padding-left:24px; padding-right:24px">
-					<table width="100%" style="background-color:#ffffff;" border="0">
-						<tr>
-							<td border="0" style="overflow:hidden;">
-								<img src="img/placeholder-video-2.jpg" style="width:50%; margin-right:20px; float:left;">
-								<p style="color:#979797; font-size:10px; font-family:'Arial'; padding-top:16px; padding-bottom:16px; text-transform:uppercase;">Category</p>
-								<p style="color:#05948f; font-size:20px; font-family:'Times'; padding-bottom:8px;">Nam bibendum euismod</p>
-								<p style="color:#666666; font-size:16px; font-family:'Arial'; padding-top:12px; padding-right: 20px; padding-bottom:24px;">Nullam posuere tristique massa, volutpat auctor risus lobortis vel. Quisque fermentum tristique efficitur. Phasellus facilisis venenas volutpat auctor risus lobortis velo.</p>
-								<a href="#" name="" target="_blank" style="text-decoration: none; margin-right: 20px; float:right">
-									<img alt="" src="img/btn-btn-small.png" style="border: 0;">
-								</a>
-							</td>
-						</tr>
-					</table>
+				<td border="0" align="center" style="width: 50%; padding-left: 24px; text-align: center;">
+					<img src="img/placeholder-video-2.jpg" align="center" style="width: 100%; display: table;">
 				</td>
+				
+				<td border="0" style="background: #ffffff; padding: 24px;">
+					<p style="color:#979797; font-size:12px; font-family:'Arial'; padding-bottom:16px; text-transform:uppercase;">
+						Category
+					</p>
+					<p style="color:#05948f; font-size:20px; line-height: 26px; font-family:'Times'; padding-bottom:16px;">
+						Proin ullamcorper fringilla<sup>1</sup>
+					</p>
+					<p style="color:#666666; font-size:15px; line-height: 22px; font-family:'Arial'; padding-right: 16px; padding-bottom:24px; display: table;">
+						Etiam vehicula, turpis quis pharetra facilisis, mauris felis molestie massa, eu suscipit elit metus quis libero. Maecenas vulputate elit a arcu pretium lobortis. Proin et enim libero. Morbi malesuada et metus eu sagittis.<sup>1</sup>
+					</p>
+					<a href="#" name="" target="_blank" style="text-decoration: none; margin-right: 20px;">
+						<img alt="" src="img/btn-btn-small.png" style="border: 0;">
+					</a>
+				</td>
+
+				<td style="background:#e8eeee; width:24px"></td>
 			</tr>
 		</table>
 	</td>
